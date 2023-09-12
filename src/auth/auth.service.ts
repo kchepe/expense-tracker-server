@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { UsersService } from 'src/users/users.service';
-import { comparePassword } from 'src/utils/password.utils';
+import { comparePassword } from '../utils/password.utils';
 import { UserTypes } from 'src/users/users.model';
 import { JwtService } from '@nestjs/jwt';
 import { SignupInput } from './dto/signup-input';
