@@ -18,9 +18,4 @@ export class UsersResolver {
   async currentUser(@Context() context) {
     return this.usersService.findUserById(context.req.user.id);
   }
-
-  // @Mutation('updateUser')
-  // update(@Args('updateUserInput') updateUserInput: UpdateUserInput) {
-  //   return this.usersService.update(updateUserInput.id, updateUserInput);
-  // }
 }
