@@ -2,7 +2,7 @@ import { Resolver, Query, Context } from '@nestjs/graphql';
 import { UsersService } from './users.service';
 import { UserTypes } from './users.model';
 import { UseGuards } from '@nestjs/common';
-import { JwtAuthGuard } from 'src/auth/guards/jwt-auth.guard';
+import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
 
 @Resolver(() => UserTypes)
 @UseGuards(JwtAuthGuard)
