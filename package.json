@@ -38,6 +38,7 @@
     "class-validator": "^0.14.0",
     "graphql": "^16.6.0",
     "graphql-tools": "^9.0.0",
+    "mkcert": "^3.0.0",
     "mongodb": "^5.6.0",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.1",
