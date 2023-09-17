@@ -8,7 +8,7 @@ import * as fs from 'fs';
 // };
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule, { httpsOptions });
+  const app = await NestFactory.create(AppModule);
   app.enableCors();
   // app.enableCors({
   //   allowedHeaders: ['content-type'],
